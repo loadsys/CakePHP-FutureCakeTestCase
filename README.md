@@ -80,7 +80,7 @@ The [xdebug](http://xdebug.org) PHP extension isn't strictly required, but is pr
 
 * The `FutureCakeTestCase` class already includes a `::tearDown()` function that will call `Mockery::close()` for you. If you define your own tearDown methods, be sure to always call `parent::tearDown()` from it.
 
-* The [test case](blob/master/tests/cases/future_cake_test_case.test.php) for the FutureCakeTestCase class has examples of all the currently implemented assertions as well as how to access Mockery. 
+* The [test case](tests/cases/future_cake_test_case.test.php) for the FutureCakeTestCase class has examples of all the currently implemented assertions as well as how to access Mockery. 
 
 ### After Upgrading to 2.0
 
