@@ -7,7 +7,7 @@ It does this by providing a subclass to the `CakeTestCase` class that exists in 
 
 The benefit to this is that the tests you write for your 1.3 project will be much more compatible with the testing framework that CakePHP v2.x uses. This eases the Cake version upgrade process considerably by making your test suite more reliable right when you need it most, and allowing you to focus on repairing your application code and not the tests themselves.
 
-Here's another way to look at this: Cake v2.0 has backwards compatibility built into it that allows the "old style" `assertEqual()` methods to continue to work by mapping them to the "new" PHPUnit equivalents for you. (But this compatibility is only available in 2.0 and 2.1, so you still have to fix all of your tests eventually.) This plugin lets you do the opposite _before_ you upgrade. Hopefully this reduces the number of excuses for not having a full test suite written for your 1.3 Cake application.
+Here's another way to look at this: Cake v2.0 has backwards compatibility built into it that allows the "old style" `assertEqual()` methods to continue to work by mapping them to the "new" PHPUnit equivalents for you. (But this compatibility is only available in 2.0, so you still have to fix all of your tests eventually.) This plugin lets you do the opposite _before_ you upgrade. Hopefully this reduces the number of excuses for not having a full test suite written for your 1.3 Cake application.
 
 ### Is This Plugin for You?
 
