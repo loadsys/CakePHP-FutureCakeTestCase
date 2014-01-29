@@ -42,9 +42,9 @@ The [xdebug](http://xdebug.org) PHP extension isn't strictly required, but is pr
 
 		cd yourcakeproject/app/
 		
-		git clone https://github.com/loadsys/CakePHP-FutureCakeTestCase.git plugins/future_case_test_case
+		git clone https://github.com/loadsys/CakePHP-FutureCakeTestCase.git plugins/future_cake_test_case
 		# Or as a submodule:
-		git submodule add https://github.com/loadsys/CakePHP-FutureCakeTestCase.git plugins/future_case_test_case
+		git submodule add https://github.com/loadsys/CakePHP-FutureCakeTestCase.git plugins/future_cake_test_case
 
 
 ## Usage
