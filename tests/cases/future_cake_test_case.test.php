@@ -1,6 +1,6 @@
 <?php
 
-//App::import('Lib', 'FutureCakeTestCase.FutureCakeTestCase');
+App::import('Lib', 'FutureCakeTestCase.FutureCakeTestCase');
 // @include_once 'Mockery/Loader.php'; $loader = new \Mockery\Loader; $loader->register();
 
 
